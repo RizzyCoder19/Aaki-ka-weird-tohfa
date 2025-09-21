@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       {/* Audio that auto-plays and loops */}
-      <audio src="public/music.mp3" autoPlay loop />
+      <audio src="Tu Itni Khoobsurat Hai (PenduJatt.Com.Se).mp3" autoPlay loop />
       <Component {...pageProps} />
     </>
   )
