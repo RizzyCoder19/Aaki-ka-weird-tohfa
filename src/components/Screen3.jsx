@@ -31,7 +31,7 @@ export default function Screen3({ onNext }) {
         className="text-4xl md:text-5xl font-bold mb-12 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent leading-tight"
         style={{ textShadow: "0 0 20px rgba(168, 85, 247, 0.3)" }}
       >
-        Come a little closer<span className="text-white">💖</span>
+        Come a little closer babayy<span className="text-white">💖</span>
       </motion.h1>
 
       <motion.div
