@@ -31,7 +31,7 @@ export default function Screen5({ onReveal }) {
         className="text-3xl md:text-4xl font-bold mb-12 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent leading-tight"
         style={{ textShadow: "0 0 20px rgba(168, 85, 247, 0.3)" }}
       >
-        Alright, your wait is over!
+        Alright, your wait is over cutiepie!
         <br />
         Here's your surprise<span className="text-white">🎁</span>
       </motion.h1>
