@@ -20,22 +20,23 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(-45deg, #1a1a1a, #3a0d3a, #0d1a3a, #1a3a1a);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+  color: white;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; 
+
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-}
-
-// src/pages/_app.js
-import '../styles/globals.css'
-
-function MyApp({ Component, pageProps }) {
-  return (
-    <>
-      {/* Audio that auto-plays and loops */}
-      <audio src="Tu Itni Khoobsurat Hai (PenduJatt.Com.Se).mp3" autoPlay loop />
-      <Component {...pageProps} />
-    </>
-  )
 }
 
 button{
