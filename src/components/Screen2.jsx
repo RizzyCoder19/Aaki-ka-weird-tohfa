@@ -77,7 +77,7 @@ export default function Screen2({ onNext }) {
               onClick={(e) => e.stopPropagation()}
             >
               <p className="text-xl text-purple-100 mb-6 leading-relaxed">
-                Be alone for a moment, this surprise is just for you😉
+                Be alone for a moment, this surprise is just for you...little miss trouble😉
               </p>
               <motion.button
                 whileHover={{ scale: 1.05 }}
